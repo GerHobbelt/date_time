@@ -13,6 +13,8 @@
 #endif
 #include "boost/date_time/date_generators.hpp"
 
+#if 0 // function already defined as `inline` in boost\date_time\date_generators.hpp
+
 namespace boost {
 namespace date_time {
 
@@ -32,7 +34,5 @@ namespace date_time {
 
 } } //namespace date_time 
 
-
-
-
+#endif
 

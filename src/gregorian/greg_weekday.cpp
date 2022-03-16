@@ -15,6 +15,8 @@
 
 #include "greg_names.hpp"
 
+#if 0 // functions already defined in boost/date_time/gregorian/greg_weekday.hpp
+
 namespace boost {
 namespace gregorian {
   
@@ -48,3 +50,4 @@ namespace gregorian {
   
 } } //namespace gregorian
 
+#endif
