@@ -15,6 +15,10 @@
 #include "boost/date_time/date_format_simple.hpp"
 #include "boost/date_time/compiler_config.hpp"
 
+#ifdef GREGORIAN_FORMATTERS_HPP___
+#error "You should include EITHER but NOT BOTH <boost/date_time/gregorian/formatters.hpp> and <boost/date_time/gregorian/formatters_limited.hpp>"
+#endif
+
 namespace boost {
 namespace gregorian {
 

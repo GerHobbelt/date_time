@@ -19,6 +19,10 @@
 #include "boost/date_time/iso_format.hpp"
 #include "boost/date_time/date_format_simple.hpp"
 
+#ifdef GREGORIAN_FORMATTERS_LIMITED_HPP___
+#error "You should include EITHER but NOT BOTH <boost/date_time/gregorian/formatters.hpp> and <boost/date_time/gregorian/formatters_limited.hpp>"
+#endif
+
 /* NOTE: "to_*_string" code for older compilers, ones that define 
  * BOOST_DATE_TIME_INCLUDE_LIMITED_HEADERS, is located in 
  * formatters_limited.hpp
