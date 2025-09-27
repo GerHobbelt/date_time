@@ -255,7 +255,7 @@ namespace date_time {
   };
 
   //! Useful generator functor for finding holidays and daylight savings
-  /*! Similar to nth_kday_of_month, but requires less paramters
+  /*! Similar to nth_kday_of_month, but requires less parameters
    *  \ingroup date_alg
    */
   template<class date_type>
